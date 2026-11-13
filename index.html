@@ -1,93 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tiny Tip Nails – One easy nail design a day</title>
-<meta name="description" content="Easy nail art for short nails. One design a day, cheap tools, no salon.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+<title>Tiny Tip Nails | Easy Nail Art Ideas, One Design a Day</title>
+<meta name="description" content="Tiny Tip Nails: easy nail art you can copy at home. French tips, chrome nails, glazed donut nails, martini nails and 3D flower nails. Watch every Short here.">
 <style>
-  :root{--bg:#F4EBDD;--card:#FFF8EF;--line:#E0CDB6;--ink:#3B2418;--choc:#5A3428;--beige:#D8C3A5;}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;line-height:1.55;
-    background-image:url("data:image/svg+xml,%3Csvg width='120' height='120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%237A4E36' stroke-width='5' stroke-linecap='round' opacity='.07'%3E%3Cpath d='M10 10 L30 40 L50 10M70 10 L90 40 L110 10M10 70 L30 100 L50 70M70 70 L90 100 L110 70'/%3E%3C/g%3E%3C/svg%3E");}
-  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
-  header{padding:28px 0 0}
-  .brand{font-weight:900;letter-spacing:.2em;font-size:15px;color:var(--choc);text-transform:uppercase}
-  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:42px 0 30px}
-  h1{font-family:"Playfair Display",serif;font-size:clamp(40px,6vw,64px);line-height:1.02;margin:0 0 16px}
-  .lead{font-size:20px;margin:0 0 24px;max-width:30ch}
-  .pills{display:flex;flex-wrap:wrap;gap:10px}
-  .pill{background:var(--choc);color:#FFF6EA;border-radius:999px;padding:8px 16px;font-weight:700;font-size:15px}
-  .hero .art{width:100%;border-radius:28px;border:4px solid var(--line);background:var(--card)}
-  section{padding:26px 0}
-  h2{font-family:"Playfair Display",serif;font-size:36px;margin:0 0 18px}
-  .card{background:var(--card);border:3px solid var(--line);border-radius:26px;padding:26px}
-  .meta{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 18px}
-  .meta span{border:2px solid var(--line);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px}
-  .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;margin-right:6px}
-  ol{padding-left:22px;margin:0}
-  ol li{margin:8px 0}
-  .tip{margin-top:16px;padding:14px 18px;border-radius:18px;background:#F4E6D3;font-weight:700}
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-  .grid .card h3{margin:0 0 6px;font-size:20px}
-  .grid .card p{margin:0}
-  a{color:var(--choc);font-weight:900}
-  footer{padding:30px 0 50px;font-size:15px;color:#5A3428}
-  @media(max-width:760px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+:root{--bg:#fff6f4;--ink:#3a1f2b;--muted:#8a6772;--rose:#c2254f;--blush:#ffd9df;--card:#ffffff;--line:#f3cfd6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;line-height:1.5}
+a{color:var(--rose)}
+header{padding:56px 20px 40px;text-align:center;background:radial-gradient(circle at 50% 0,var(--blush),var(--bg) 70%)}
+.logo{width:84px;height:84px;margin:0 auto 14px;border-radius:50%;background:var(--blush);display:grid;place-items:center;border:3px solid #fff;box-shadow:0 6px 20px rgba(194,37,79,.18)}
+.logo i{display:block;width:26px;height:38px;border-radius:13px 13px 9px 9px;background:var(--rose);box-shadow:inset 5px 4px 0 rgba(255,255,255,.28)}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,6vw,3.6rem);margin:0;letter-spacing:-.5px}
+.tag{max-width:560px;margin:12px auto 24px;color:var(--muted);font-size:1.1rem}
+.btn{display:inline-block;background:var(--rose);color:#fff;text-decoration:none;font-weight:700;padding:13px 26px;border-radius:999px}
+.btn:hover,.btn:focus{background:#9d1b3f}
+main{max-width:1120px;margin:0 auto;padding:8px 20px 60px}
+h2{font-family:Georgia,serif;font-size:1.7rem;margin:28px 0 6px}
+.sub{color:var(--muted);margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:22px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:10px 10px 14px}
+.thumb{position:relative;display:block;width:100%;aspect-ratio:9/16;border:0;padding:0;border-radius:12px;overflow:hidden;background:#000;cursor:pointer}
+.thumb img,.thumb iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:rgba(194,37,79,.92);color:#fff;font-size:22px;display:grid;place-items:center;padding-left:4px}
+.thumb:hover .play,.thumb:focus .play{background:#9d1b3f}
+h3{font-size:1rem;margin:12px 4px 2px;line-height:1.3}
+.meta{margin:0 4px 6px;color:var(--muted);font-size:.85rem}
+.card a{display:block;margin:0 4px;font-size:.85rem;word-break:break-all}
+footer{text-align:center;color:var(--muted);padding:26px 20px 44px;border-top:1px solid var(--line);font-size:.9rem}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header><div class="brand">Tiny Tip Nails</div></header>
-
-  <div class="hero">
-    <div>
-      <h1>One easy nail design a day.</h1>
-      <p class="lead">Short nails. Cheap tools. No salon. Simple step-by-step designs anyone can do at home.</p>
-      <div class="pills"><span class="pill">Beginner friendly</span><span class="pill">Short nails</span><span class="pill">Under 30 min</span></div>
-    </div>
-    <div class="art"><svg viewBox="140 340 800 930" width="100%" role="img" aria-label="Illustrated hand with short beige nails and three small chocolate dots on each nail"><path d="M290 760 Q300 700 330 690 L760 700 Q790 720 785 800 L770 1040 Q760 1120 690 1160 L640 1260 L380 1260 L360 1160 Q300 1110 295 1030 Z" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><path d="M300 900 Q230 870 205 800 Q190 755 225 742 Q262 732 285 790 L320 860 Z" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><rect x="306.0" y="430" width="92" height="330" rx="46.0" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><path d="M324.0 578.5 Q352 588.5 380.0 578.5" stroke="#D9A585" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="420.0" y="368" width="96" height="392" rx="48.0" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><path d="M438.0 550.6 Q468 560.6 498.0 550.6" stroke="#D9A585" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="537.0" y="404" width="94" height="356" rx="47.0" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><path d="M555.0 566.8 Q584 576.8 613.0 566.8" stroke="#D9A585" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="651.0" y="500" width="82" height="260" rx="41.0" fill="#F1C3A3" stroke="#C88F6C" stroke-width="5"/><path d="M669.0 610.0 Q692 620.0 715.0 610.0" stroke="#D9A585" stroke-width="4" fill="none" stroke-linecap="round"/><clipPath id="snc0"><rect x="321.0" y="444" width="62" height="78" rx="28.1"/></clipPath><rect x="321.0" y="444" width="62" height="78" rx="28.1" fill="#F7D9CF" stroke="#D9A08A" stroke-width="3"/><rect  x="321.0" y="444" width="62" height="78" rx="28.1" fill="#FFF4EC"/><g clip-path="url(#snc0)"><rect x="321.0" y="444" width="62" height="78" fill="#D8C3A5"/></g><circle cx="352" cy="463.5" r="6.5" fill="#5A3428"/><circle cx="352" cy="484.6" r="6.5" fill="#5A3428"/><circle cx="352" cy="505.6" r="6.5" fill="#5A3428"/><g clip-path="url(#snc0)"><rect x="281.0" y="434" width="22" height="108" fill="#FFFFFF" opacity="0.5" transform="rotate(18 352 483.0)"/></g><clipPath id="snc1"><rect x="435.0" y="382" width="66" height="78" rx="29.9"/></clipPath><rect x="435.0" y="382" width="66" height="78" rx="29.9" fill="#F7D9CF" stroke="#D9A08A" stroke-width="3"/><rect  x="435.0" y="382" width="66" height="78" rx="29.9" fill="#FFF4EC"/><g clip-path="url(#snc1)"><rect x="435.0" y="382" width="66" height="78" fill="#D8C3A5"/></g><circle cx="468" cy="401.5" r="6.5" fill="#5A3428"/><circle cx="468" cy="422.6" r="6.5" fill="#5A3428"/><circle cx="468" cy="443.6" r="6.5" fill="#5A3428"/><g clip-path="url(#snc1)"><rect x="395.0" y="372" width="22" height="108" fill="#FFFFFF" opacity="0.5" transform="rotate(18 468 421.0)"/></g><clipPath id="snc2"><rect x="552.0" y="418" width="64" height="78" rx="29.0"/></clipPath><rect x="552.0" y="418" width="64" height="78" rx="29.0" fill="#F7D9CF" stroke="#D9A08A" stroke-width="3"/><rect  x="552.0" y="418" width="64" height="78" rx="29.0" fill="#FFF4EC"/><g clip-path="url(#snc2)"><rect x="552.0" y="418" width="64" height="78" fill="#D8C3A5"/></g><circle cx="584" cy="437.5" r="6.5" fill="#5A3428"/><circle cx="584" cy="458.6" r="6.5" fill="#5A3428"/><circle cx="584" cy="479.6" r="6.5" fill="#5A3428"/><g clip-path="url(#snc2)"><rect x="512.0" y="408" width="22" height="108" fill="#FFFFFF" opacity="0.5" transform="rotate(18 584 457.0)"/></g><clipPath id="snc3"><rect x="666.0" y="514" width="52" height="78" rx="23.6"/></clipPath><rect x="666.0" y="514" width="52" height="78" rx="23.6" fill="#F7D9CF" stroke="#D9A08A" stroke-width="3"/><rect  x="666.0" y="514" width="52" height="78" rx="23.6" fill="#FFF4EC"/><g clip-path="url(#snc3)"><rect x="666.0" y="514" width="52" height="78" fill="#D8C3A5"/></g><circle cx="692" cy="533.5" r="6.5" fill="#5A3428"/><circle cx="692" cy="554.6" r="6.5" fill="#5A3428"/><circle cx="692" cy="575.6" r="6.5" fill="#5A3428"/><g clip-path="url(#snc3)"><rect x="626.0" y="504" width="22" height="108" fill="#FFFFFF" opacity="0.5" transform="rotate(18 692 553.0)"/></g><clipPath id="snc4"><rect x="212" y="752" width="38" height="46" rx="17.2"/></clipPath><rect x="212" y="752" width="38" height="46" rx="17.2" fill="#F7D9CF" stroke="#D9A08A" stroke-width="3"/><rect  x="212" y="752" width="38" height="46" rx="17.2" fill="#FFF4EC"/><g clip-path="url(#snc4)"><rect x="212" y="752" width="38" height="46" fill="#D8C3A5"/></g><circle cx="232" cy="767.2" r="4.5" fill="#5A3428"/><circle cx="232" cy="782.8" r="4.5" fill="#5A3428"/><g clip-path="url(#snc4)"><rect x="172" y="742" width="22" height="76" fill="#FFFFFF" opacity="0.5" transform="rotate(18 232 775.0)"/></g></svg></div>
-  </div>
-
-  <section>
-    <h2>Today's design: Cozy Cocoa Dots</h2>
-    <div class="card">
-      <div class="meta">
-        <span>Level 1 of 3</span><span>About 25 min with drying</span>
-        <span><i class="sw" style="background:var(--beige)"></i>Warm beige</span>
-        <span><i class="sw" style="background:var(--choc)"></i>Chocolate brown</span>
-      </div>
-      <p><strong>You need:</strong> base coat, beige polish, brown polish, top coat, and a toothpick or dotting tool.</p>
-      <ol>
-        <li>Apply base coat and let it dry for 2 minutes.</li>
-        <li>Brush on two thin coats of beige, waiting 3 minutes between coats.</li>
-        <li>Dip the toothpick lightly in brown and place three small dots down each nail. Let them dry.</li>
-        <li>Seal everything with a glossy top coat.</li>
-      </ol>
-      <div class="tip">Tip: wipe the toothpick before every dot so the dots stay tiny and neat.</div>
-    </div>
-  </section>
-
-  <section>
-    <h2>What you'll find here</h2>
-    <div class="grid">
-      <div class="card"><h3>Step-by-step designs</h3><p>One full design in 3 to 5 clear steps.</p></div>
-      <div class="card"><h3>Seasonal ideas</h3><p>Cozy fall looks, holiday nails and fresh New Year sets.</p></div>
-      <div class="card"><h3>Cheap tool hacks</h3><p>Toothpicks, tape and bobby pins as nail art tools.</p></div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Follow along</h2>
-    <div class="card">
-      <p>New designs on Facebook: search <strong>Tiny Tip Nails</strong></p>
-      <p>Questions or collaborations: <a href="mailto:asifircu07@gmail.com">asifircu07@gmail.com</a></p>
-    </div>
-  </section>
-
-  <footer>© 2026 Tiny Tip Nails · Designs are illustrated guides for at-home nail art.</footer>
-</div>
+<header>
+<div class="logo" aria-hidden="true"><i></i></div>
+<h1>Tiny Tip Nails</h1>
+<p class="tag">One easy nail design a day. Short step-by-step guides you can copy at home or show your nail tech.</p>
+<a class="btn" href="https://www.youtube.com/@TinyTipNails?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+</header>
+<main>
+<h2>Latest nail designs</h2>
+<p class="sub">Tap a preview to play it here, or use the link to open it on YouTube.</p>
+<div class="grid" id="grid"></div>
+</main>
+<footer>Tiny Tip Nails &middot; <a href="https://www.youtube.com/@TinyTipNails" target="_blank" rel="noopener">youtube.com/@TinyTipNails</a><br>All designs are illustrated guides. Results may vary with your polish and nail shape.</footer>
+<script>
+var V=[
+["QXYFAmKxET4","Stop Painting Thick French Tips: Try This Micro-French Hack","12 Nov 2026"],
+["12nW-1hc8Xw","Martini Nails: Easy Olive Green Nail Art with One Dot","11 Nov 2026"],
+["nGUjNMQr1yg","Cherry Blossom Nail Art: A Soft, Glossy ASMR Moment","10 Nov 2026"],
+["DFJHXKycmAo","French Nails With a Chrome Twist","9 Nov 2026"],
+["K5sW6kPYsWw","3D Cherry Blossom Nails in 3 Steps","8 Nov 2026"],
+["ZdY3_Zk7D8I","Glazed Donut Chrome Nails: The Glossy Nail Trend","6 Nov 2026"]
+];
+var g=document.getElementById("grid");
+V.forEach(function(v){
+var u="https://www.youtube.com/shorts/"+v[0];
+var c=document.createElement("article");c.className="card";
+c.innerHTML='<button class="thumb" type="button"><img loading="lazy" src="https://i.ytimg.com/vi/'+v[0]+'/hqdefault.jpg" alt=""><span class="play" aria-hidden="true">&#9658;</span></button><h3></h3><p class="meta"></p><a target="_blank" rel="noopener" href="'+u+'">'+u.replace("https://www.","")+'</a>';
+c.querySelector("h3").textContent=v[1];
+c.querySelector(".meta").textContent=v[2];
+var b=c.querySelector("button");
+b.setAttribute("aria-label","Play preview: "+v[1]);
+b.onclick=function(){var d=document.createElement("div");d.className="thumb";d.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+v[0]+'?autoplay=1&playsinline=1&rel=0" title="YouTube video player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';b.replaceWith(d);};
+g.appendChild(c);
+});
+</script>
 </body>
 </html>
